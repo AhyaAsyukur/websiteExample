@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../assets/img/osis.png">
+  <link rel="stylesheet" href="../../src/output.css">
+  <link rel="stylesheet" href="../custom/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <title>SMKN 4 KENDARI</title>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif;" class="overflow-x-hidden">
+  
+
+<header>
+  <div  style="background-image: url(../assets/img/beranda.jpg); background-position: center; background-size: cover; background-color: blue;" class="h-200 w-full">
+
+  <nav id="navbar" class="fixed z-100 inset-x-0 w-full  max-w-[100vw]  transition-all duration-300">
+
+  <div class=" flex py-1 px-2 md:py-6 md:px-8 justify-between items-center ">
+
+      <div>
+        <img src="../assets/img/logo.png" class="w-70 md:w-100 cursor-pointer slide-top1">   
+      </div>
+      <div class="mt-1">
+        <ul class="flex gap-x-12 mr-3">
+
+          <li class="slide-top1" style="font-size: 1.2rem; color: white;">
+            <button class="hover:text-gray-400 flex items-center">
+            <ion-icon class="mr-1 mb-0.5" name="home-outline"></ion-icon> BERANDA
+           </button>
+          </li>
+
+          <li class="slide-top2" style="font-size: 1.2rem; color: white;">
+            <button class="hover:text-gray-400 flex items-center">
+            <ion-icon class="mr-1 mb-0.5" name="file-tray-full-outline"></ion-icon> VISI & MISI 
+           </button>
+          </li>
+
+          <li style="font-size: 1.2rem; color: white;" class=" slide-top3 relative group">
+            <button class="hover:text-gray-400 flex items-center">
+            <ion-icon class="mr-1 mb-0.5" name="people-outline"></ion-icon> STRUKTUR <ion-icon name="chevron-down-outline"></ion-icon>
+           </button>
+            <ul class="absolute invisible opacity-0 group-hover:opacity-100
+              group-hover:visible transition-[opacity,visibility] duration-300 delay-100 group-hover:delay-0
+             bg-gray-800 mt-7 rounded-2xl shadow-lg text-white w-50 z-10 -ml-5">
+             <li><a href="#" target="_blank" class="block px-7 py-6 hover:bg-gray-700">Pengurus</a></li>
+             <li><a href="#" target="_blank" class="block px-7 py-6 hover:bg-gray-700">Sekdib</a></li>
+             <li><a href="#" target="_blank" class="block px-7 py-6 hover:bg-gray-700">Anggota inti</a></li>
+             <li><a href="#" target="_blank" class="block px-7 py-6 hover:bg-gray-700">Mantan anggota</a></li>
+            </ul>
+          </li>
+
+          <li style="font-size: 1.2rem; color: white;" class="slide-top4 relative group">
+            <button class="hover:text-gray-400 flex items-center">
+            <ion-icon class="mr-1 mb-0.5" name="newspaper-outline"></ion-icon> BERITA <ion-icon name="chevron-down-outline"></ion-icon>
+           </button>
+            <ul class="absolute invisible opacity-0 group-hover:opacity-100
+              group-hover:visible transition-[opacity,visibility] duration-300 delay-100 group-hover:delay-0
+             bg-gray-800 mt-7 rounded-2xl shadow-lg text-white w-50 z-10 -ml-20 ">
+              <li><a href="#" target="_blank" class="block px-6 py-6 hover:bg-gray-700">Pengumuman</a></li>
+              <li><a href="#" target="_blank" class="block px-6 py-6 hover:bg-gray-700">Info terbaru</a></li>
+              <li><a href="#" target="_blank" class="block px-6 py-6 hover:bg-gray-700">Generasi osis</a></li>
+              <li><a href="#" target="_blank" class="block px-6 py-6 hover:bg-gray-700">Events</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+   </div>
+
+    
+</nav>
+
+<div class="flex flex-col pt-90 ">
+  <div class="bg-amber-700 mt-5 w-50 h-2 rounded-3xl -ml-2 slide-in1"></div>
+  <h4 class="ml-6 font-bold text-white slide-in1 official1 ">WELCOME</h4>
+  <p class="-mt-6 ml-6 font-bold official text-white slide-in1">Official website OSIS SMKN 4 Kendari</p>
+  <button type="button" onclick="window.open('https://example.com', '_blank')" style="cursor: pointer; font-size: 1.5rem; gap: 2px; padding: 4px;" class="ml-6 mt-1 font- 
+    semibold text-white flex font-semibold slide-in1 rounded-2xl w-55 items-center justify-center bg-amber-700 hover:bg-amber-800">
+    <ion-icon class="mr-1 mb-0.5" name="folder-open-outline"></ion-icon> 
+    Selengkapnya
+  </button>
+</div>
+
+</div>
+</header>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../../src/js/javasckrip.js"></script>
+
+
+
+
+
+<!-- ---------------------------------------------------------IKLAN---------------------------------------------------------------------------- -->
+
+<div>
+   
+  <div>
+      <div style="font-size: 1rem;" class="colornews h-10 flex font-semibold text-white">
+            <div class="colornews w-30  z-1"></div>
+            <div  class="-ml-2 bg-amber-700 h-full w-32 flex justify-center items-center rounded-2xl z-10 text-xl ">
+             <ion-icon name="megaphone-outline"></ion-icon>
+              NEWS
+           </div>
+ 
+          <div class="relative mt-1 text-xl w-full overflow-x-hidden">
+           <div class="Slidenews whitespace-nowrap font-alata font-light">
+             <span class="mr-30">Siswa smkn 4 kendari memenangkan penghargaan tingkat nasional</span>
+             <span class="mr-30">Siswa smkn 4 kendari memenangkan penghargaan tingkat nasional</span>
+             <span class="mr-30">Siswa smkn 4 kendari memenangkan penghargaan tingkat nasional</span>
+             <span class="mr-30">Siswa smkn 4 kendari memenangkan penghargaan tingkat nasional</span>
+           </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="bg-gray-100">
+    <link rel="stylesheet" href="../../src/output.css">
+<div class="w-full mx-auto">
+  <div id="swiper1" class="swiper mySwiper1 h-90 shadow-lg ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="../assets/img/beranda.jpeg" 
+             class="w-full h-full object-cover">
+      </div>
+      <div class="swiper-slide">
+        <img src="../assets/img/beranda.jpeg" 
+             class="w-full h-full object-cover">
+      </div>
+      <div class="swiper-slide">
+        <img src="../assets/img/beranda.jpeg"  
+             class="w-full h-full object-cover">
+      </div>
+    </div>
+    <div class="swiper-button-prev-custom">
+    <ion-icon name="chevron-back-outline"></ion-icon>
+  </div>
+    <div class="swiper-button-next text-white/20 p-6 bg-gray-600/30 rounded-2xl"></div> 
+    <div class="swiper-button-prev text-white/20 p-6 bg-gray-600/30 rounded-2xl"></div> 
+    <div class="swiper-pagination"></div>
+   </div>
+ </div>
+ <script src="https://cdn.tailwindcss.com"></script>
+<script>
+  const swiper1 = new Swiper('.mySwiper1', {
+    loop: true,
+    autoplay: {
+      delay: 3000,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
+ </div>
+
+</div>
+
+<!-- ----------------------------------------------------BERITA-------------------------------------------------------------- -->
+
+<div style="background-image: url(../assets/img/furnitur.png); background-size: 85rem; font-family: Arial, Helvetica, sans-serif; " class="mt-9 w-full h-155 bg-no-repeat bg-bottom overflow-hidden">
+
+  <div class="flex justify-center">
+    <h4 class="flex items-center gap-x-1.5 text-4xl font-semibold mt-5">
+      <ion-icon name="newspaper-outline"></ion-icon><p class="colorberita1">Artikel & Berita sekolah</p>
+    </h4>
+  </div>
+
+  <div class="h-10 flex items-center">
+    <div class="items-center flex gap-x-2 text-2xl font-semibold ml-10 font-alata colorberita3">
+    <a href="#LihatLainNya">Lihat Semua</a><ion-icon class="mt-1" name="arrow-forward-outline"></ion-icon>
+    </div>
+  </div>
+
+  <div class="overflow-x-auto no-scrollbar cursor-grab active:cursor-grabbing mt-4 pb-4 justify-center flex">
+  <div class="h-125 mt-1 flex gap-x-6 justify-center">
+
+    <div id="news1" class="colorberita2 h-full w-70 rounded-2xl flex flex-col shadow1">
+      <div style="box-shadow: 1px ;" class="bg-white my-3 rounded-2xl h-50 w-63 m-auto"><img></div>
+
+      <div class="ml-3.5"><h3 class="font-bold text-xl">Judul kegiatan</h3></div>
+
+      <div class="px-3.5 font-alata leading-tight textArtikel"><p>isi kegiatan yang ada sampai selesai dan apapun itu, jadi ini adalah 
+         berita pada kamis 12 maret 2025 akan 
+        diadakan festifal yang menarik bagi siswa semua dan pengumuman ini akan berlaku sampai acara selesai</p>
+      </div>
+
+       <div class="border-b-2 border-dashed border-black my-3 mx-3"></div>
+
+       <div class="px-3.5 flex items-center">
+        <ion-icon class="mb-0.5 mr-1" name="calendar-outline"></ion-icon> <p class="mr-6">Januari 15, 2025</p> 
+        <ion-icon class="mb-0.5 mr-1" name="timer-outline"></ion-icon> <p>20.14 PM</p> 
+       </div>
+
+       <div class="flex justify-center ">
+        <button type="button" onclick="window.open('https://example.com', '_blank')" style="cursor: pointer; font-size: 1rem; gap: 2px;" 
+         class="mr-1 mt-4 p-0.5
+          text-white flex font-alata rounded-2xl w-40 items-center justify-center bg-amber-700 hover:bg-amber-800">
+          Lihat lainnya
+        </button>
+       </div>
+    </div>
+    
+
+
+    <div class="colorberita2 h-full w-70 rounded-2xl flex flex-col shadow1">
+      <div style="box-shadow: 1px ;" class="bg-white my-3 rounded-2xl h-50 w-63 m-auto"><img></div>
+
+      <div class="ml-3.5"><h3 class="font-bold text-xl">Judul kegiatan</h3></div>
+
+      <div class="px-3.5 font-alata leading-tight textArtikel"><p>isi kegiatan yang ada sampai selesai dan apapun itu, jadi ini adalah 
+         berita pada kamis 12 maret 2025 akan 
+        diadakan festifal yang menarik bagi siswa semua dan pengumuman ini akan berlaku sampai acara selesai</p>
+      </div>
+
+       <div class="border-b-2 border-dashed border-black my-3 mx-3"></div>
+
+       <div class="px-3.5 flex items-center">
+        <ion-icon class="mb-0.5 mr-1" name="calendar-outline"></ion-icon> <p class="mr-6">Januari 15, 2025</p> 
+        <ion-icon class="mb-0.5 mr-1" name="timer-outline"></ion-icon> <p>20.14 PM</p> 
+       </div>
+
+       <div class="flex justify-center ">
+        <button type="button" onclick="window.open('https://example.com', '_blank')" style="cursor: pointer; font-size: 1rem; gap: 2px;" 
+         class="mr-1 mt-4 p-0.5
+          text-white flex font-alata rounded-2xl w-40 items-center justify-center bg-amber-700 hover:bg-amber-800">
+          Lihat lainnya
+        </button>
+       </div>
+     </div>
+
+
+
+    <div class="colorberita2 h-full w-70 rounded-2xl flex flex-col shadow1">
+      <div style="box-shadow: 1px ;" class="bg-white my-3 rounded-2xl h-50 w-63 m-auto"><img></div>
+
+      <div class="ml-3.5"><h3 class="font-bold text-xl">Judul kegiatan</h3></div>
+
+      <div class="px-3.5 font-alata leading-tight textArtikel"><p>isi kegiatan yang ada sampai selesai dan apapun itu, jadi ini adalah 
+         berita pada kamis 12 maret 2025 akan 
+        diadakan festifal yang menarik bagi siswa semua dan pengumuman ini akan berlaku sampai acara selesai</p>
+      </div>
+
+       <div class="border-b-2 border-dashed border-black my-3 mx-3"></div>
+
+       <div class="px-3.5 flex items-center">
+        <ion-icon class="mb-0.5 mr-1" name="calendar-outline"></ion-icon> <p class="mr-6">Januari 15, 2025</p> 
+        <ion-icon class="mb-0.5 mr-1" name="timer-outline"></ion-icon> <p>20.14 PM</p> 
+       </div>
+
+       <div class="flex justify-center ">
+        <button type="button" onclick="window.open('https://example.com', '_blank')" style="cursor: pointer; font-size: 1rem; gap: 2px;" 
+         class="mr-1 mt-4 p-0.5
+          text-white flex font-alata rounded-2xl w-40 items-center justify-center bg-amber-700 hover:bg-amber-800">
+          Lihat lainnya
+        </button>
+       </div>
+    </div>
+
+
+
+
+    <div class="colorberita2 h-full w-70 rounded-2xl flex flex-col shadow1">
+      <div style="box-shadow: 1px ;" class="bg-white my-3 rounded-2xl h-50 w-63 m-auto"><img></div>
+
+      <div class="ml-3.5"><h3 class="font-bold text-xl">Judul kegiatan</h3></div>
+
+      <div class="px-3.5 font-alata leading-tight textArtikel"><p>isi kegiatan yang ada sampai selesai dan apapun itu, jadi ini adalah 
+         berita pada kamis 12 maret 2025 akan 
+        diadakan festifal yang menarik bagi siswa semua dan pengumuman ini akan berlaku sampai acara selesai</p>
+      </div>
+
+       <div class="border-b-2 border-dashed border-black my-3 mx-3"></div>
+
+       <div class="px-3.5 flex items-center">
+        <ion-icon class="mb-0.5 mr-1" name="calendar-outline"></ion-icon> <p class="mr-6">Januari 15, 2025</p> 
+        <ion-icon class="mb-0.5 mr-1" name="timer-outline"></ion-icon> <p>20.14 PM</p> 
+       </div>
+
+       <div class="flex justify-center ">
+        <button type="button" onclick="window.open('https://example.com', '_blank')" style="cursor: pointer; font-size: 1rem; gap: 2px;" 
+         class="mr-1 mt-4 p-0.5
+          text-white flex font-alata rounded-2xl w-40 items-center justify-center bg-amber-700 hover:bg-amber-800">
+          Lihat lainnya
+        </button>
+       </div>
+    </div>
+
+
+ </div>
+ </div>
+</div>
+
+
+<!-- ----------------------------------------------------PENGUMUMAN------------------------------------------------------------- -->
+
+
+<div class="w-full overflow-hidden">
+  <div class="flex justify-center py-10 px-10">
+    <div style="background: linear-gradient(0deg, #2F3A5E 0%, #6279C4 100%);
+    border-radius: 1rem;" class="w-full h-90 rounded-3xl flex justify-between">
+      <div class="h-23 flex w-100">
+Kontak
+        <div class="py-5 px-5">
+          <h1 style="font-family: Arial, Helvetica, sans-serif;" class="font-semibold text-white text-3xl">Pengumuman</h1>
+          <div class="flex items-center text-base font-semibold text-white"><a href="#" target="_blank">Lihat semua info terbaru</a><ion-icon class="ml-1 mt-0.5" name="arrow-forward-outline"></ion-icon></div> 
+        </div>
+    </div>
+
+    <div class="w-200 h-full  mr-5">
+      
+  <div id="swiper2" class="swiper mySwiper2 h-90 py-12">
+
+     <div class="flex space-x-3 pb-4 ml-180">   
+         <button class="swiper-button-prev-custom w-7 h-7 bg-white rounded-full shadow-md flex items-center justify-center hover:bg-gray- 
+          100 transition-all">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+           </button>
+           <button class="swiper-button-next-custom w-7 h-7 bg-white rounded-full shadow-md flex items-center justify-center hover:bg- 
+            gray-100 transition-all">
+           <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+      <div class="swiper-pagination !top-15 !bottom-auto !w-40 !left-80"></div>
+    
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide w-70 h-20 font-alata">
+          <div class="h-50 w-full rounded-2xl bg-white"><img src="" alt=""></div>
+           <div class="font-semibold text-xl text-white">Program bakti sosial</div>
+           <div class="font-semibold text-xs text-white flex items-center gap-x-1">
+             <ion-icon class="text-black text-base" name="location-outline"></ion-icon> Marjib ar rahman
+             <ion-icon class="text-black text-base ml-4" name="time-outline"></ion-icon> 1-30 Maret, 2025
+      </div>
+      </div>
+      
+      <div class="swiper-slide w-70 h-full font-alata">
+          <div class="h-50 w-full rounded-2xl bg-white"><img src="" alt=""></div>
+           <div class="font-semibold text-xl text-white">Program bakti sosial</div>
+           <div class="font-semibold text-xs text-white flex items-center gap-x-1">
+             <ion-icon class="text-black text-base" name="location-outline"></ion-icon> Marjib ar rahman
+             <ion-icon class="text-black text-base ml-4" name="time-outline"></ion-icon> 1-30 Maret, 2025
+      </div>
+      </div>
+
+      <div class="swiper-slide w-70 h-full font-alata">
+           <div class="h-50 w-full rounded-2xl bg-white"><img src="" alt=""></div>
+           <div class="font-semibold text-xl text-white">Program bakti sosial</div>
+           <div class="font-semibold text-xs text-white flex items-center gap-x-1">
+             <ion-icon class="text-black text-base" name="location-outline"></ion-icon> Marjib ar rahman
+             <ion-icon class="text-black text-base ml-4" name="time-outline"></ion-icon> 1-30 Maret, 2025
+      </div>                                                  
+    </div>
+
+   </div>
+    
+
+   </div>
+ </div>
+      
+        
+  </div>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper2 = new Swiper('.mySwiper2', {
+    loop: true,
+    slidesPerView: 2,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 3000,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next-custom',
+      prevEl: '.swiper-button-prev-custom',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+  
+  </script>
+</div>
+</div>
+
+
+
+<!-- ---------------------------------------------------------BIDANG---------------------------------------------------------------------------- -->
+
+    <div class="mt-10">
+        <div class="flex justify-center pb-8">
+          <h4 class="flex items-center gap-x-1.5 text-4xl font-semibold mt-5">
+           <ion-icon name="people-outline"></ion-icon><p style="font-family: Arial, sans-serif;" class="font-bold text-amber-600">BIDANG</p>
+          </h4>
+        </div>
+        <div class="flex flex-wrap gap-4 justify-center ">
+          <div class="bg-gray-500/30 w-105 h-55 rounded-2xl"></div>
+          <div class="bg-gray-500/30 w-105 h-55 rounded-2xl"></div>
+          <div class="bg-gray-500/30 w-105 h-55 rounded-2xl"></div>
+          <div class="bg-gray-500/30 w-105 h-55 rounded-2xl"></div>
+          <div class="bg-gray-500/30 w-105 h-55 rounded-2xl"></div>
+          <div class="bg-gray-500/30 w-105 h-55 rounded-2xl"></div>
+        </div>
+
+        <div style="font-family: Arial, Helvetica, sans-serif;" class="flex items-center text-2xl font-semibold justify-center mt-5 text-blue-900"><a href="#" target="_blank">Tentang kami</a><ion-icon class="mt-0.5" name="arrow-forward-outline"></ion-icon></div>
+    </div>
+
+<!-- ---------------------------------------------------------PENGURUS---------------------------------------------------------------------------- -->
+
+<div style="background-image: url(../assets/img/furnitur2.png);" class="bg-no-repeat bg-cover w-full h-120 mt-15">
+   <div style="font-family: Arial, Helvetica, sans-serif;" class="flex items-center text-2xl font-semibold py-5 px-5 mt-5 text-white"><a href="#" 
+      target="_blank">Lihat Semua</a><ion-icon class="mt-0.5" name="arrow-forward-outline"></ion-icon></div>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------------VISI & MISI---------------------------------------------------------------------------- -->
+
+<div class="w-full h-140 flex px-20 py-5 mt-20 bg-gray-300/30 overflow-hidden">
+  <div class="h-full w-120 ">
+    <img src="../assets/img/smk.png" alt="">
+    <div class="w-100 h-18 rounded-2xl mx-auto flex flex-col  bg-amber-700" style="font-family: Arial;">
+      <h3 class="text-2xl font-bold mx-auto">Kak nanang</h3>
+      <p class="text-2xl mx-auto">Ketua OSIS Periode 2024/2025</p>
+    </div>
+  </div>
+  <div class="w-full px-15 py-5">
+      <h4 class="text-4xl colorketua font-semibold font-alata pb-5">Pesan Ketua OSIS</h4>
+      <div class="h-1 w-20 bg-amber-700"></div>
+      <p class="text-2xl mt-10 pr-20">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam accusamus autem in cumque accusantium illum reiciendis iste assumenda, recusandae consectetur molestiae. Commodi aspernatur necessitatibus atque asperiores iusto eligendi distinctio quibusdam facilis sunt, assumenda, quae molestias incidunt pariatur, deleniti iure voluptatibus illo corrupti sapiente ut. Nulla libero veniam hic ab totam!"</p>
+  </div>
+</div>
+
+<!-- ---------------------------------------------------------PENGURUS OSIS---------------------------------------------------------------------------- -->
+
+<div class="mt-12 w-full h-130  flex py-15 px-20 overflow-hidden">
+  <div class="h-full w-100">
+    <div class="h-full w-70 ml-30 bg-gray-200 mx-auto"></div>
+  </div>
+  <div class="h-full w-full px-10 pr-50 flex flex-col">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum inventore soluta eligendi labore modi dolorem expedita ullam maxime minus, nam repudiandae debitis amet, tenetur enim voluptas molestiae quae officiis nostrum ad aliquam! Maiores numquam sit, recusandae quaerat optio vero? Minima rerum quasi similique repellat. Labore fuga tenetur tempora similique, suscipit laudantium totam nobis nostrum quaerat iure porro sed rem vero magnam, veritatis delectus, nulla saepe! In quam asperiores dignissimos aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum distinctio dolorum laboriosam perspiciatis, delectus at repudiandae ratione qui sit iusto explicabo nobis aperiam saepe, accusantium veniam illo fugit voluptas enim. Nam delectus facilis, velit laudantium enim deserunt.</p>
+    <div class="h-1.5 w-140 bg-amber-700 mt-7"></div>
+    <h1 class="mt-5 text-3xl text-gray-600" style="font-family: Arial, Helvetica, sans-serif; font-weight: 600;">Dr Abdursallam, S.pd.,M.pd</h1>
+    <p class="mt-5 text-xl text-gray-600">Pembina OSIS SMKN 4 Kendari</p>
+  </div>
+</div>
+
+
+<!-- ---------------------------------------------------------KOMENTAR---------------------------------------------------------------------------- -->
+
+<div class="h-100 w-full bg-gray-300 py-5 mt-50">
+    <div class="flex justify-center">
+    <h4 class="flex items-center gap-x-1.5 text-4xl font-semibold pb-5">
+      <ion-icon name="chatbubbles-outline"></ion-icon><p class="text-amber-600">Komentar</p>
+    </h4>
+  </div>
+    <div class="flex justify-center gap-x-6">
+
+      <div class="bg-white rounded-2xl h-70 w-70 font-bold font-arial py-2 shadow-md shadow-black/50">
+        <div class="flex justify-center w-30 ml-4 bg-gray-400/50 "><p>SEDIH</p></div>
+        <div class="mt-5">
+          <p class="text-2xl ml-4">Judul Cerita</p>
+          <p class="font-normal mt-2 ml-4">jadi setiap siswa bisa mengeluarkan isi hati nya di sini tanpa diketahui siapa yang cerita dan ini menjadi daya tarik website ini dan mungkin kedepannya jadi begitu namun masih dalam tahap demo.......</p>
+        </div>
+        <div class="w-full mt-1 border-t-2 border-black"></div>
+        <ion-icon class="text-3xl ml-4" name="heart-outline"></ion-icon>
+      </div>
+
+      <div class="bg-white rounded-2xl h-70 w-70 font-bold font-arial py-2 shadow-md shadow-black/50">
+        <div class="flex justify-center w-30 ml-4 bg-gray-400/50 "><p>LUCU</p></div>
+        <div class="mt-5">
+          <p class="text-2xl ml-4">Judul Cerita</p>
+          <p class="font-normal mt-2 ml-4">jadi setiap siswa bisa mengeluarkan isi hati nya di sini tanpa diketahui siapa yang cerita dan ini menjadi daya tarik website ini dan mungkin kedepannya jadi begitu namun masih dalam tahap demo.......</p>
+        </div>
+        <div class="w-full mt-1 border-t-2 border-black"></div>
+        <ion-icon class="text-3xl ml-4" name="heart-outline"></ion-icon>
+      </div>
+
+      <div class="bg-white rounded-2xl h-70 w-70 font-bold font-arial py-2 shadow-md shadow-black/50">
+        <div class="flex justify-center w-30 ml-4 bg-gray-400/50 "><p>KAGET</p></div>
+        <div class="mt-5">
+          <p class="text-2xl ml-4">Judul Cerita</p>
+          <p class="font-normal mt-2 ml-4">jadi setiap siswa bisa mengeluarkan isi hati nya di sini tanpa diketahui siapa yang cerita dan ini menjadi daya tarik website ini dan mungkin kedepannya jadi begitu namun masih dalam tahap demo.......</p>
+        </div>
+        <div class="w-full mt-1 border-t-2 border-black"></div>
+        <ion-icon class="text-3xl ml-4" name="heart-outline"></ion-icon>
+      </div>
+
+        <div class="bg-white rounded-2xl h-70 w-70 font-bold font-arial py-2 shadow-md shadow-black/50">
+          <div class="flex justify-center w-30 ml-4 bg-gray-400/50 "><p>CERPEN</p></div>
+          <div class="mt-5">
+            <p class="text-2xl ml-4">Judul Cerita</p>
+            <p class="font-normal mt-2 ml-4">jadi setiap siswa bisa mengeluarkan isi hati nya di sini tanpa diketahui siapa yang cerita dan ini menjadi daya tarik website ini dan mungkin kedepannya jadi begitu namun masih dalam tahap demo.......</p>
+          </div>
+          <div class="w-full mt-1 border-t-2 border-black"></div>
+          <ion-icon class="text-3xl ml-4" name="heart-outline"></ion-icon>
+        </div>
+
+      
+    </div>
+  </div>
+
+
+
+<!-- ---------------------------------------------------------FOOTER---------------------------------------------------------------------------- -->
+
+<footer class="mt-20">
+  <div class="bg-amber-700 h-1"></div>
+  <div class="h-75 colornews flex border-t-3 border-amber-600 py-3 px-10 justify-between">
+
+    <div class="w-1/2 flex flex-col pr-50">
+      <img src="../assets/img/smk.png" alt="" class="w-36">
+      <span class="ml-5 mt-2 text-white font-arial font-bold text-3xl">SMKN 4 KENDARI</span>
+      <span class="ml-5 text-white font-arial font-bold text-xl">Jl. Kijang Kelurahan Wundumbatu, Kecamatan Poasia, Kota Kendari</span>
+    </div>
+
+    <div class="h-full w-80 flex flex-col font-bold font-arial gap-y-2 text-white">
+      <span class="text-[20px]">Hubungi kami</span>
+      <span class="flex items-center"><ion-icon name="call-outline" class="text-[25px] transform scale-x-[-1] mr-2 text-black"></ion-icon> 0832-23-3123</span>
+      <span  class="flex items-center"><ion-icon name="logo-whatsapp" class="text-[25px] mr-2 text-black"></ion-icon> 3231-232-3312</span>
+      <span class="font-semibold flex items-center "><ion-icon name="mail-outline" class="text-[25px] mr-2 text-black"></ion-icon> osissmkn4kendari@gmail.com</span>
+
+      <span class="text-[20px] mt-5">Ikuti kami</span>
+       <div class="flex gap-x-1 items-center">
+        <a href="#" target="_blank"><img src="../assets/img/instagram.png" class="w-10" alt=""></a>
+        <a href="#" target="_blank"><img src="../assets/img/facebook.png" class="w-9 mt-0.5" alt=""></a>
+        <a href="#" target="_blank"><img src="../assets/img/tiktok.png" class="w-11 mt-1" alt=""></a>
+       </div>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
+
+
+ 
+    
+
+    
+
+

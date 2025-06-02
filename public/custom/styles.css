@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+.font-alata {
+  font-family: "Alata", sans-serif;
+}
+.font-arial {
+  font-family: "Arial", sans-serif;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideTop {
+  0% {
+    opacity: 1;
+    transform: translateY(-180%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hover {
+  pointer-events: none;
+}
+
+.hover:hover {
+  pointer-events: auto;
+}
+
+.slide-in1 {
+  animation: slideIn 1s ease-out forwards;
+}
+.slide-in2 {
+  animation: slideIn 2s ease-out forwards;
+}
+.slide-top1 {
+  animation: slideTop 0.5s ease-out forwards;
+}
+
+.slide-top2 {
+  animation: slideTop 1s ease-out forwards;
+}
+.slide-top3 {
+  animation: slideTop 1.5s ease-out forwards;
+}
+.slide-top4 {
+  animation: slideTop 2s ease-out forwards;
+}
+
+/* ----------------------------------------------------------------Custom Slide news------------------------------------------------------------------------------ */
+@keyframes slideNews {
+  0% {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-310%);
+  }
+}
+
+.Slidenews {
+  animation: slideNews 40s linear infinite;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slide-animation {
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.colornews {
+  background-color: #3c4a77;
+}
+
+/* ----------------------------------------------------------------Custom Berita------------------------------------------------------------------------------ */
+
+.colorberita1 {
+  color: #1c4ca4;
+}
+
+.colorberita3 {
+  color: #6279c4;
+}
+.colorberita3:hover {
+  color: #3f5ab2;
+}
+
+.colorberita2 {
+  background-color: #d9d9d9;
+
+}
+
+.shadow1 {
+  box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.textArtikel {
+  font-size: 16px;
+}
+
+/* ----------------------------------------------------------------Custom Artikel------------------------------------------------------------------------------ */
+
+.colorketua {
+  color: #324876;
+}
+
+/* ----------------------------------------------------------------Custom Footer------------------------------------------------------------------------------ */
+
+.colorFooter {
+  background-color: #6279c4;
+}
+
+
+/* ----------------------------------------------------------------Custom Animasi Toggle------------------------------------------------------------------------------ */
+
+@keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(100%);
+      opacity: 1;
+    }
+  }
+
+  .slide-in {
+    animation: slideUp 0.3s ease-out forwards;
+  }
+
+  .slide-out {
+    animation: slideDown 0.3s ease-in forwards;
+  }
+
+
+@media (max-width: 740px) { /* sm breakpoint */
+  tes {
+    width: !important;
+  }
+
+}

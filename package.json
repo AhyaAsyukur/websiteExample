@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "main": "/articles/index.php",
+  "scripts": {
+    "kerja": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "@tailwindcss/postcss": "^4.1.7"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.1.7"
+  }
+}
